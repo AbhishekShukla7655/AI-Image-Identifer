@@ -49,35 +49,15 @@ https://github.com/AbhishekShukla7655/AI-Image-Identifer
 ---
 
 ## 📸 Screenshots
-
 ## 📸 Screenshots
 
-<p align="center">
-  <figure style="display:inline-block; width:45%; margin:0;">
-    <img src="login.png" height="260" style="object-fit:cover; width:100%;" />
-    <figcaption align="center"><b>Login Page</b></figcaption>
-  </figure>
+| Login Page | Register Page |
+|------------|---------------|
+| <img src="login.png" width="100%"/> | <img src="register.png" width="100%"/> |
 
-  <figure style="display:inline-block; width:45%; margin:0;">
-    <img src="register.png" height="260" style="object-fit:cover; width:100%;" />
-    <figcaption align="center"><b>Register Page</b></figcaption>
-  </figure>
-</p>
-
-<br>
-
-<p align="center">
-  <figure style="display:inline-block; width:45%; margin:0;">
-    <img src="home.png" height="260" style="object-fit:cover; width:100%;" />
-    <figcaption align="center"><b>Home Page</b></figcaption>
-  </figure>
-
-  <figure style="display:inline-block; width:45%; margin:0;">
-    <img src="result.png" height="260" style="object-fit:cover; width:100%;" />
-    <figcaption align="center"><b>Result Page</b></figcaption>
-  </figure>
-</p>
-
+| Home Page | Result Page |
+|-----------|-------------|
+| <img src="home.png" width="100%"/> | <img src="result.png" width="100%"/> |
 
 ---
 
