@@ -44,26 +44,40 @@ python manage.py runserver
 ---
 
 ## 📦 Repository
-https://github.com/AbhishekShukla7655/ai-image-identifier
+https://github.com/AbhishekShukla7655/AI-Image-Identifer
 
 ---
 
 ## 📸 Screenshots
 
-<p align="center">
-  <img src="login.png" width="45%"/>
-  <img src="register.png" width="45%"/>
-</p>
+## 📸 Screenshots
 
 <p align="center">
-  <img src="home.png" width="45%"/>
-  <img src="result.png" width="45%"/>
+  <figure style="display:inline-block; width:45%; margin:0;">
+    <img src="login.png" height="260" style="object-fit:cover; width:100%;" />
+    <figcaption align="center"><b>Login Page</b></figcaption>
+  </figure>
+
+  <figure style="display:inline-block; width:45%; margin:0;">
+    <img src="register.png" height="260" style="object-fit:cover; width:100%;" />
+    <figcaption align="center"><b>Register Page</b></figcaption>
+  </figure>
 </p>
 
+<br>
+
 <p align="center">
-  <b>Login</b> &nbsp;&nbsp;&nbsp;&nbsp; <b>Register</b><br><br>
-  <b>Home</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Result</b>
+  <figure style="display:inline-block; width:45%; margin:0;">
+    <img src="home.png" height="260" style="object-fit:cover; width:100%;" />
+    <figcaption align="center"><b>Home Page</b></figcaption>
+  </figure>
+
+  <figure style="display:inline-block; width:45%; margin:0;">
+    <img src="result.png" height="260" style="object-fit:cover; width:100%;" />
+    <figcaption align="center"><b>Result Page</b></figcaption>
+  </figure>
 </p>
+
 
 ---
 
