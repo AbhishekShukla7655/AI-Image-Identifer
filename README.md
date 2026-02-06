@@ -49,7 +49,6 @@ https://github.com/AbhishekShukla7655/AI-Image-Identifer
 ---
 
 ## 📸 Screenshots
-## 📸 Screenshots
 
 | Login Page | Register Page |
 |------------|---------------|
