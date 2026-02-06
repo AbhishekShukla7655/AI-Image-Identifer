@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="d-flex justify-content-center">
+    <div class="neon-card" style="max-width: 400px;">
+        <h2 class="text-center mb-4" style="color: var(--neon-glow);">Welcome Back</h2>
+        
+        <form method="post">
+            {% csrf_token %}
+            
+            <div class="mb-3">
+                <label>Email / Username</label>
+                {{ form.username }}
+            </div>
+
+            <div class="mb-3" style="position: relative;">
+                <label>Password</label>
+                {{ form.password }}
+                <span onclick="togglePassword('password')" 
+                      style="position: absolute; right: 15px; top: 38px; cursor: pointer; color: #8892b0;">
+                      👁️
+                </span>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-center mb-4">
+                {{ form.remember_me }}
+                <label for="remember" style="margin-left: 10px; cursor: pointer; color: #ccd6f6;">Remember Me</label>
+            </div>
+
+            <button type="submit" class="btn btn-neon w-100">Login</button>
+        </form>
+
+        <div class="text-center mt-3">
+            <a href="#!" style="font-size: 0.9rem;">Forgot Password?</a>
+            <span style="color: #8892b0; margin: 0 5px;">|</span>
+            <a href="{% url 'register' %}" style="font-size: 0.9rem;">New User? Sign Up</a>
+        </div>
+
+        <div class="text-center mt-4 pt-3" style="border-top: 1px solid #233554;">
+            <p style="font-style: italic; color: #8892b0; font-size: 0.85rem; margin: 0;">
+                "We Believe we are serving you well to assist you well"
+            </p>
+        </div>
+    </div>
+</div>
+{% endblock %}
